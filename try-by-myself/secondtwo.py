@@ -6,6 +6,7 @@ canvas = tk.Canvas(root, width=800, height=800, bg="white")
 canvas.pack()
 w=800
 h=600
+#ยากทำเองม่ายเป็น
 def create_regular_polygon(canvas,center_x,center_y,radius,sides,color):
     points=[]
     for i in range(sides):
